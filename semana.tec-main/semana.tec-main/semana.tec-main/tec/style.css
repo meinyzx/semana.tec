@@ -1,0 +1,67 @@
+.icon-marmita--social-youtube {
+    background-image: url("youtube.png");
+    height: 30px;
+    border: none;
+    display: inline-flex;
+    
+    margin: 3px 5px;
+}
+.icon-marmita--social-facebook {
+    background-image: url("facecbook.png");
+    height: 30px;
+    border: none;
+    display: inline-flex;
+
+    margin: 3px 5px;
+}
+.icon-marmita--social-instagram {
+    background-image: url("instagram.png");
+    height: 30px;
+    border: none;
+    display: inline-flex;
+   
+    margin: 3px 5px;
+}
+.social{
+    display:flex;
+    flex-direction: row;
+
+}
+body{font-family: helvetica,sans-serif;
+    overflow-x: hidden;
+    font-size: 16px;
+    height: 100%;
+    scroll-behavior: auto;
+    background-color: #e0e0e0;
+
+}
+/*section{
+    display: flex;
+
+}*/
+.footer_coluna{
+    display: inline-block;
+    margin: 10px 2%;
+}
+
+footer{
+    background-color: white;
+    padding: 30px 0;
+}
+
+.footer_subtitulo{
+    display: block;
+}
+
+
+h3{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.social_item{
+    display: inline-block;
+}
+
+
+a{
+    text-decoration: none;
+}
